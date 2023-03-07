@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media all
+
+.container {
+    animation: fadeEffect 5s; 
+}
+      
+    @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+      
+}
+
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+nav span:nth-child(1),
+nav span:nth-child(2), 
+nav span:nth-child(3) {
+    padding: 1.5rem;
+    
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+nav {
+    margin-right: 7rem;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    margin-left: 7rem;
+}
+
+#button {
+    background: red;
+    padding: 0.5rem;
+    color: white;
+    border: 1px red;
+    border-radius: 4px;
+}
+
+#button:hover {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+#div1 {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 1.5rem;
+    /* font-size: 10px; */
+    /* resize: 10rem; */
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    height: auto;
+   
+}
+
+#div2 {
+    margin-left: -5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#button1 {
+    background: rgb(74, 74, 243);
+    padding: 0.5rem;
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#button1:hover {
+    background-color: aquamarine;
+    color: rgb(74, 74, 243);
+}
+
+#button2 {
+    background: wheat;
+    padding: 0.5rem;
+    border: 2px;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+
+#button2:hover {
+    background-color: rgb(221, 255, 127);
+    color: rgb(0, 0, 0);
+}
+
+
+.section1 {
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    position: relative;
+    
+
+}
+
+.color {
+    width: 35.5rem;
+    padding: 10rem 0;
+    background-color: #5266DF;
+    position: relative;
+    bottom: 1rem;
+    left: 0;
+    /* z-index: 0; */
+    border-bottom-left-radius: 145px;
+    margin-bottom: 2.2rem;
+    margin-top: 13rem;
+    margin-left: 20rem;
+   
+} 
+
+#right-img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    padding-right: 3rem;
+    z-index: 1;
+}
+
+.section2 {
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-left: 35%;
+    margin-right: auto;
+    align-content: center;
+    height: auto;
+    /* font-size: 1.3rem; */
+    
+}
+
+/* #div3 {
+   border: 1px solid red;
+} */
+
+nav .crew {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+    width: 10rem;
+    font-size: 12px;
+}
+
+
+
+ .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+
+  .tab button:hover {
+    background-color: #ddd;
+    border-bottom: 3px solid red;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  } 
+
+
+
+
+  #link-div {
+    display: flex;
+    /* margin-left: 7rem; */
+    margin-top: 5rem;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    position: relative;
+    
+
+}
+
+.color2 {
+    width: 35.5rem;
+    padding: 10rem 0;
+    background-color: #5266DF;
+    position: relative;
+    bottom: 1rem;
+    left: 0;
+    /* z-index: 0; */
+    border-bottom-right-radius: 145px;
+    margin-bottom: 2.2rem;
+    margin-top: 13rem;
+    margin-right: 20rem;
+   
+} 
+
+#left-img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    padding-right: 3rem;
+    z-index: 1;
+
+}
+
+#div4 {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 1.5rem;
+    /* font-size: 10px; */
+    /* resize: 10rem; */
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    height: auto;
+    margin-right: 10rem;
+}
+
+
+#button3 {
+    background: #5266DF;
+    padding: 0.5rem;
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+#button3:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+
+.icons {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+}
+
+#div5 {
+    margin-bottom: 3rem;
+    /* justify-content: first baseline;
+    align-items: first baseline; */
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    height: 20rem;
+    margin: 1.5rem;
+}
+
+#div5 img {
+   
+    margin-left: 2.1rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+    padding-top: 2rem;
+}
+
+#div5 h3 {
+    margin-left: 1.6rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+    margin-top: 1rem;
+}
+
+#div5 p {
+    margin-left: 1.6rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+}
+
+#div5 hr {
+    border: 1px dotted black;
+}
+
+
+#div6 {
+    margin-top: 3rem;
+    /* justify-content: center;
+    align-items: center; */
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    height: 20rem;
+    margin: 1.5rem;
+}
+
+#div6 img {
+    margin-left: 2.1rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+    padding-top: 2rem;
+}
+
+#div6 h3 {
+    margin-left: 1.6rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+    /* margin-top: 1rem; */
+}
+
+#div6 p {
+    margin-left: 1.6rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+}
+
+#div6 hr {
+    border: 1px dotted black;
+}
+
+#div7 {
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 4px;
+    height: 20rem;
+    box-shadow: gray;
+    margin: 1.5rem;
+    
+    
+}
+
+#div7 img {
+    margin-left: 2.1rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+    padding-top: 2rem;
+}
+
+#div7 h3 {
+    margin-left: 1.6rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+}
+
+#div7 p {
+    margin-left: 1.6rem;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+}
+
+#div7 hr {
+    border: 1px dotted black;
+}
+
+#button4 {
+    background: rgb(98, 61, 246);
+    padding: 0.5rem;
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 13.5rem;
+    margin-left: 1rem;
+    height: 3rem;
+}
+
+#button4:hover {
+    background-color: rgb(249, 250, 247);
+    color: rgb(0, 0, 0);
+}
+
+#button5 {
+    background: rgb(88, 48, 249);
+    padding: 0.5rem;
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 13.5rem;
+    margin-left: 1rem;
+    height: 3rem;
+}
+
+#button5:hover {
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+}
+
+#button6 {
+    background: rgb(88, 48, 249);
+    padding: 0.5rem;
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 13.5rem;
+    margin-left: 1rem;
+    height: 3rem;
+}
+
+#button6:hover {
+    background-color: rgb(241, 242, 239);
+    color: rgb(0, 0, 0);
+}
+
+#button7 {
+    background: rgb(88, 48, 249);
+    /* padding: 0.5rem; */
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 13.5rem;
+    margin-left: 8rem;
+    height: 3rem;
+    margin-top: 3rem;
+    
+}
+
+#button7:hover {
+    background-color: rgb(241, 242, 239);
+    color: rgb(0, 0, 0);
+}
+
+.grid-div {
+    /* border: 1px solid red; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div8 {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 1rem 1rem 1rem 0;
+    width: 30rem;
+}
+
+#div9 {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 1rem 1rem 1rem 0;
+    width: 30rem;
+}
+
+#div10 {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 1rem 1rem 1rem 0;
+    width: 30rem;
+}
+
+#div11 {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 1rem 1rem 1rem 0;
+    width: 30rem;
+}
+
+.big-div {
+    display: inline-block;
+    width: 100%;
+    background: #5266DF;
+    height: 20rem;
+    padding-top: 3rem;
+    margin-top: 6rem;
+}
+
+#div12 h3{
+    color: white;
+    font-size: 25px;
+    /* margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+#div12 p {
+    color: white;
+    font-size: 10px;
+}
+
+#div13 #input {
+    height: 2rem;
+    width: 16rem;
+    margin-top: 20px;
+}
+
+#button8 {
+    background: red;
+    /* padding: 0.5rem; */
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 7rem;
+    /* margin-left: 8rem; */
+    height: 2rem;
+    /* margin-top: 3rem; */
+    
+}
+
+#button8:hover {
+    background-color: rgb(241, 242, 239);
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.navigate img {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav span:nth-child(1),
+nav span:nth-child(2), 
+nav span:nth-child(3) {
+    padding: 1.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 425px){
+    header {
+        padding: 0 1rem;
+    }
+    header img {
+        padding: 1rem 1rem;      }
+
+    /* #hambuger-menu{
+        display: block;
+        width: 20px;
+        margin-right: 2rem;
+        cursor: pointer; */
+    /* }
+
+    #header-nav,
+    .color,
+    .color2 {
+        display: none;
+    }
+    /* .section1{
+        flex-direction: column-reverse;
+        padding: 3rem 0rem 0rem 0rem;
+    }
+
+    .section1 img{
+        width: 100%;
+        height: 60%;
+    }
+
+    #left-img,
+    #right-img{
+        width: auto;
+    }
+     /* .intro {
+        width: auto;
+        text-align: center; 
+    }   */ */
+    /* #right-intro{
+        padding: 0;
+    }
+
+    #left-intro{
+        padding-right: 0 !important;
+    }
+
+    .intro h1 {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    #right-intro p{
+        padding: 1rem 3rem;
+    }
+
+    #right-intro br ,#left-intro br{
+        display: none ;
+    }
+    #browser-btn button{
+        padding: 0.8rem 0.8rem;
+    } */
+
+/* }
+
+@media only screen and (max-width: 768px){
+    .get-bookmark{
+        flex-direction: column-reverse;
+    }
+
+    .feature-category-bookmark{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .left-intro-img,
+    .right-intro-img{
+        width: auto;
+    }
+
+    .right-intro-img svg{
+        margin: auto;
+    }
+
+    .left-intro-img img{
+        margin: auto;
+    }
+
+    #right-intro{
+        padding: 0;
+    }
+
+    #left-intro{
+        padding-right: 0 !important;
+    }
+
+    .intro {
+        width: auto;
+        text-align: center;
+    }
+
+    header {
+        padding: 0 1rem;
+    }
+
+    #hambuger-menu{
+        display: block;
+        width: 20px;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+
+    #header-nav,
+    .left-curve,
+    .right-curve{
+        display: none;
+    }
+
+    .download-extention{
+        padding-top: 5rem;
+    }
+
+    .extension-browser{
+        margin: 0 0.9rem;
+    }
+
+    .feature-category ul{
+        height: 60px;
+    }
+    .bookmark-features {
+        padding-bottom: 4rem;
+    }
+    
+} */ */ */

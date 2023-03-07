@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="phone.css" media="(min-width: 450px)">
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="computer.css" media="(min-width: 1000px)">
+  <title>Frontend Mentor | Bookmark landing page</title>
+ 
+  <style>
+     .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/*     
+    .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+    /* } */
+
+    /* .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+    /* } */ */
+
+    /* Use a media query to add a breakpoint at 800px: */
+    /* @media screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    /* }
+    }  */
+</style> 
+
+  </style>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <img src="./images/logo-bookmark.svg" alt="Photo can't load">
+            <nav>
+                <span><a href="">FEATURES</a></span>
+                <span><a href="">PRICING</a></span>
+                <span><a href="">CONTACT</a></span>
+                <input id="button" type="button" value="LOGIN">
+            </nav>
+        </header>
+
+        <section class="section1">
+            <div id="div1">
+                <h2>A Simple Bookmark <br>Manager</h2><br>
+                <p>A clean and simple interface to organize your favorite <br>websites.
+                    Open a new browser tab and see your sites load <br>instantly. Try it for free.
+                </p>
+                <br>
+                <input id="button1" type="button" value="Get it on Chrome">
+                <input id="button2" type="button" value="Get it on Firefox">
+
+            </div>
+            <div id="div2">
+                <div id="right-img">
+                    <img src="./images/illustration-hero.svg" alt="">
+                </div>
+                <div class="color"></div>
+            </div>
+
+        </section>
+
+        <section class="section2">
+           
+            <h3 align="center">Features</h3>
+            <br>
+            <p align="center">Our aim is to make it quick and easy for you to access your <br>favourite websites. 
+                Your bookmarks sync between your devices <br>so you can access them on the go.
+            </p> 
+            <br>
+            <br> 
+            
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Simple Bookmarking')">Simple Bookmarking</button>
+                <button class="tablinks" onclick="openCity(event, 'Speedy Searching')">Speedy Searching</button>
+                <button class="tablinks" onclick="openCity(event, 'Easy Sharing')">Easy Sharing</button>
+            </div>
+              
+             
+
+        </section>
+       
+
+
+
+         <!-- Tab content -->
+        <div id="bookmark" class="tabcontent">
+            <h3>Simple Bookmarking</h3>
+          <!-- link-div should come here for functionality -->
+        </div>
+          
+        <!-- <div id="searching" class="tabcontent">
+            <h3>Speedy Searching</h3>
+            <p>Hi! This is Nathan Omalley Segbee Jr.</p>
+        </div>
+          
+        <div id="sharing" class="tabcontent">
+            <h3>Easy Sharing</h3>
+            <p>Hi! This is Nathan Omalley Segbee Jr.</p>
+        </div> -->
+
+        <div id="link-div">
+                
+            <div id="div3">
+                <div id="left-img">
+                    <img src="./images/illustration-features-tab-1.svg" alt="">
+                </div>
+                <div class="color2"></div>
+            </div>
+            <div id="div4">
+                <h3>Bookmark in one click</h3><br>
+                <p>Organize your bookmarks however you like. Our <br>simple 
+                    drag-and-drop interface gives you complete<br>
+                    control over how you manage your favourite sites.
+                </p>
+                <br>
+                <input id="button3" type="button" value="More Info">
+
+            </div>
+
+        </div>
+
+        <h3 align="center">Download the extension</h3><br>
+        <p align="center">We've got more browsers in the pipeline. Please do let us know if <br>
+        you've got a favourite you'd like us to priotize.</p>
+
+        <div class="icons">
+            <div id="div5">
+                <img src="./images/logo-chrome.svg" alt="">
+                <h3>Add to Chrome</h3> <br>
+                <p>Minimum version 62</p>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <input id="button4" type="button" value="Add & Install Extension">
+            </div>
+            <div id="div6">
+                <img src="./images/logo-firefox.svg" alt="">
+                <h3>Add to Firefox</h3>
+                <p>Minimum version 55</p>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <input id="button5" type="button" value="Add & Install Extension">
+            </div>
+            <div id="div7">
+                <img src="./images/logo-opera.svg" alt="">
+                <h3>Add to Opera</h3>
+                <p>Minimum version 46</p>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <input id="button6" type="button" value="Add & Install Extension">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h3 align="center">Frequently Asked Questions</h3><br>
+        <p align="center">Here are some of our FAQs. If you have any other questions<br>
+        you'd like answered, please feel free to email us.</p>
+        <br>
+        <br>
+
+        <div class="grid-div">
+            <div id="div8">What is Bookmark?</div>
+            <div id="div9">How can I request a new browser?</div>
+            <div id="div10">Is there a mobile app?</div>
+            <div id="div11">What about other Chromium browsers?</div>
+
+            <input id="button7" type="button" value="More Info">
+        </div>
+
+        <div class="big-div">
+            <div id="div12" align="center">
+                <p>35,000 + ALREADY JOINED</p><br>
+                <br>
+                <h3>Stay up-to-date with what<br> we're doing</h3>
+            </div>
+            
+            <div id="div13" align="center">
+                <input id="input" type="text" placeholder="Enter your email address">
+
+                <input id="button8" type="button" value="Contact Us">
+            </div>
+              
+
+        </div>
+
+        <footer>
+            
+            <nav class="navigate">
+                <img src="./images/logo-bookmark.svg" alt="Photo can't load">
+                <span><a href="">FEATURES</a></span>
+                <span><a href="">PRICING</a></span>
+                <span><a href="">CONTACT</a></span>
+            </nav>
+            <nav class="go-on">
+                <img src="./images/icon-facebook.svg" alt="">
+                <img src="./images/icon-twitter.svg" alt="">
+            </nav>
+
+        </footer>
+
+    </main>
+</body>
